@@ -1,0 +1,32 @@
+.procesos {
+    background-color: $blue3;
+    color: $white;
+    
+}
+ 
+.gradient-procesos{
+    min-height: 60vh;
+    width: 100%;
+    background: rgb(12,141,255);
+    background: linear-gradient(58deg, rgba(12,141,255,1) 1%, rgba(103,182,252,1) 100%); 
+}
+
+
+.section-process{
+    max-height: 100vh;
+    width: 100%;
+}
+
+.textos-centrados-procesos{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%; ;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+
+}

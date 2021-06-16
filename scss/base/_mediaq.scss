@@ -1,0 +1,306 @@
+/* Tres medidas que determinan el máximo 
+para tomar las propiedades que necesite 
+la pantalla */
+
+@media (max-width: 575.98px) {
+   
+     .gradient-inicio {
+          min-height: 40vh;
+          width: 100%;
+     }
+
+     .gradient-inicio img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-porque {
+          min-height: 40vh;
+          width: 100%;
+     }
+
+     .gradient-porque img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-contacto {
+          min-height: 40vh;
+          width: 100%;
+     }
+
+     .gradient-contacto img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-plantillas {
+          min-height: 40vh;
+          width: 100%;
+     }
+
+     .gradient-plantillas img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-proyectos {
+          min-height: 40vh;
+          width: 100%;
+     }
+
+     .gradient-proyectos img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+    .navbar{
+         display: none;  
+    }
+
+    .btn-burger{
+     margin-right: 10%;    
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+     .gradient-inicio {
+          min-height: 50vh;
+          width: 100%;
+     }
+
+     .gradient-inicio img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-porque {
+          min-height: 50vh;
+          width: 100%;
+     }
+
+     .gradient-porque img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-contacto {
+          min-height: 50vh;
+          width: 100%;
+     }
+
+     .gradient-contacto img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-plantillas{
+          min-height: 50vh;
+          width: 100%;
+     }
+
+     .gradient-plantillas img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-proyectos{
+          min-height: 50vh;
+          width: 100%;
+     }
+
+     .gradient-proyectos img{
+          margin-top: 20%;
+          margin-bottom: 5%;
+          width: 100%;
+     }
+
+    .navbar{
+         display: none;  
+     }
+
+    .btn-burger{
+          margin-right: 10%; 
+     }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+     .gradient-inicio {
+          min-height: 60vh;
+          width: 100%;
+     }
+     
+     .gradient-inicio img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-porque {
+          min-height: 60vh;
+          width: 100%;
+     }
+     
+     .gradient-porque img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-contacto {
+          min-height: 60vh;
+          width: 100%;
+     }
+     
+     .gradient-contacto img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-plantillas {
+          min-height: 60vh;
+          width: 100%;
+     }
+     
+     .gradient-plantillas img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-proyectos {
+          min-height: 60vh;
+          width: 100%;
+     }
+     
+     .gradient-proyectos img{
+          margin-top: 10%;
+          width: 100%;
+     }
+
+    .navbar {
+         display: none;  
+    }
+
+    .btn-burger{
+     margin-right: 10%;    
+    }
+        
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+     .gradient-inicio {
+          min-height: 80vh;
+          width: 100%;
+     }
+
+     .gradient-inicio img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+    .gradient-porque {
+          min-height: 80vh;
+          width: 100%;
+     }
+
+     .gradient-porque img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-contacto {
+          min-height: 80vh;
+          width: 100%;
+     }
+
+     .gradient-contacto img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-plantillas {
+          min-height: 80vh;
+          width: 100%;
+     }
+
+     .gradient-plantillas img{
+          margin-top: 20%;
+          width: 100%;
+     }
+
+     .gradient-proyectos {
+          min-height: 80vh;
+          width: 100%;
+     }
+
+     .gradient-proyectos img{
+          margin-top: 35%;
+          width: 100%;
+     }
+
+    .btn-burger{
+     display: none;    
+    }    
+
+}
+
+@media (min-width: 1200px) {
+  
+     .gradient-inicio {
+          min-height: 100vh;
+          width: 100%;
+     }
+
+     .gradient-inicio img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-porque{
+          min-height: 100vh;
+          width: 100%;
+     }
+
+     .gradient-porque img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-contacto{
+          min-height: 100vh;
+          width: 100%;
+     }
+
+     .gradient-contacto img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-plantillas{
+          min-height: 100vh;
+          width: 100%;
+     }
+
+     .gradient-plantillas img{
+          margin-top: 15%;
+          width: 100%;
+     }
+
+     .gradient-proyectos{
+          min-height: 100vh;
+          width: 100%;
+     }
+
+     .gradient-proyectos img{
+          margin-top: 30%;
+          width: 100%;
+     }
+
+    .btn-burger{
+          display: none;    
+    }
+    
+}

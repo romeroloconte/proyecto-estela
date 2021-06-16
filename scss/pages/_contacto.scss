@@ -1,0 +1,53 @@
+.contacto {
+    background-color: $green1;
+    color: $white;
+}
+ 
+.gradient-contacto{
+    background: rgb(0,213,165);
+    background: linear-gradient(-146deg, rgba(0,213,165,1) 1%, rgba(179,240,226,1) 100%); 
+}
+
+.btn-primary-contact {
+    font-weight: 800;
+    color: #00d5a5;
+    font-size: 12px;
+    background-color: $white;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary-contact:hover{
+    font-weight: 800;
+    background: transparent;
+    border: 2px solid;
+    color:  $white;
+    font-size: 12px;
+    background-color: $green1;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary-write {
+    font-weight: 800;
+    background: transparent;
+    border: 2px solid;
+    color: #fff;
+    font-size: 12px;
+    background-color: #00d5a5;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary-write:hover{
+    font-weight: 800;
+    color: #00d5a5;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

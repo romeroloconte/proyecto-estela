@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 51 51" style="enable-background:new 0 0 51 51;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#3D3D3D;}
+</style>
+<g id="btn_burger_menu" transform="translate(9 6)">
+	<g transform="matrix(1, 0, 0, 1, -9, -6)">
+		<g id="Elipse_1-2">
+			<circle class="st0" cx="25.5" cy="25.5" r="24.1"/>
+		</g>
+	</g>
+	<g id="Grupo_1" transform="translate(-133.5 -67.5)">
+		<g id="Línea_1">
+			<rect x="142" y="81.4" class="st1" width="16.2" height="1.6"/>
+		</g>
+		<g id="Línea_2">
+			<rect x="142" y="86.1" class="st1" width="16.2" height="1.6"/>
+		</g>
+		<g id="Línea_3">
+			<rect x="142" y="90.9" class="st1" width="16.2" height="1.6"/>
+		</g>
+	</g>
+</g>
+</svg>

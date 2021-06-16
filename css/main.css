@@ -1,0 +1,413 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body, html {
+  font-family: 'Montserrat', sans-serif; }
+
+section {
+  max-height: 100vh;
+  width: 100%; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff; }
+
+ul:link,
+ul:visited,
+ul:active {
+  text-decoration: none;
+  color: #fff; }
+
+li:link,
+li:visited,
+li:active {
+  text-decoration: none;
+  color: #fff; }
+
+h1 {
+  font-weight: 800;
+  font-size: 32px; }
+
+h4 {
+  font-weight: 800;
+  font-size: 18px; }
+
+h6 {
+  font-weight: 400;
+  font-size: 12px; }
+
+p {
+  font-weight: 400;
+  font-size: 14px; }
+
+/* Tres medidas que determinan el máximo 
+para tomar las propiedades que necesite 
+la pantalla */
+@media (max-width: 575.98px) {
+  .gradient-inicio {
+    min-height: 40vh;
+    width: 100%; }
+  .gradient-inicio img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-porque {
+    min-height: 40vh;
+    width: 100%; }
+  .gradient-porque img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-contacto {
+    min-height: 40vh;
+    width: 100%; }
+  .gradient-contacto img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-plantillas {
+    min-height: 40vh;
+    width: 100%; }
+  .gradient-plantillas img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-proyectos {
+    min-height: 40vh;
+    width: 100%; }
+  .gradient-proyectos img {
+    margin-top: 15%;
+    width: 100%; }
+  .navbar {
+    display: none; }
+  .btn-burger {
+    margin-right: 10%; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .gradient-inicio {
+    min-height: 50vh;
+    width: 100%; }
+  .gradient-inicio img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-porque {
+    min-height: 50vh;
+    width: 100%; }
+  .gradient-porque img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-contacto {
+    min-height: 50vh;
+    width: 100%; }
+  .gradient-contacto img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-plantillas {
+    min-height: 50vh;
+    width: 100%; }
+  .gradient-plantillas img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-proyectos {
+    min-height: 50vh;
+    width: 100%; }
+  .gradient-proyectos img {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 100%; }
+  .navbar {
+    display: none; }
+  .btn-burger {
+    margin-right: 10%; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .gradient-inicio {
+    min-height: 60vh;
+    width: 100%; }
+  .gradient-inicio img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-porque {
+    min-height: 60vh;
+    width: 100%; }
+  .gradient-porque img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-contacto {
+    min-height: 60vh;
+    width: 100%; }
+  .gradient-contacto img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-plantillas {
+    min-height: 60vh;
+    width: 100%; }
+  .gradient-plantillas img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-proyectos {
+    min-height: 60vh;
+    width: 100%; }
+  .gradient-proyectos img {
+    margin-top: 10%;
+    width: 100%; }
+  .navbar {
+    display: none; }
+  .btn-burger {
+    margin-right: 10%; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .gradient-inicio {
+    min-height: 80vh;
+    width: 100%; }
+  .gradient-inicio img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-porque {
+    min-height: 80vh;
+    width: 100%; }
+  .gradient-porque img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-contacto {
+    min-height: 80vh;
+    width: 100%; }
+  .gradient-contacto img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-plantillas {
+    min-height: 80vh;
+    width: 100%; }
+  .gradient-plantillas img {
+    margin-top: 20%;
+    width: 100%; }
+  .gradient-proyectos {
+    min-height: 80vh;
+    width: 100%; }
+  .gradient-proyectos img {
+    margin-top: 35%;
+    width: 100%; }
+  .btn-burger {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  .gradient-inicio {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-inicio img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-porque {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-porque img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-contacto {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-contacto img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-plantillas {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-plantillas img {
+    margin-top: 15%;
+    width: 100%; }
+  .gradient-proyectos {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-proyectos img {
+    margin-top: 30%;
+    width: 100%; }
+  .btn-burger {
+    display: none; } }
+
+.textos-centrados {
+  margin-top: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch; }
+
+.numeros {
+  font-weight: 800;
+  font-size: 32px; }
+
+.content-wrapper {
+  min-height: 100vh; }
+
+.content-wrapper img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch; }
+
+header {
+  width: 90%;
+  position: absolute;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  z-index: 10; }
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around; }
+
+.navbar li {
+  font-weight: 800;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.navbar li:hover {
+  font-weight: 800;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline; }
+
+.contacto {
+  background-color: #00d5a5;
+  color: #fff; }
+
+.gradient-contacto {
+  background: #00d5a5;
+  background: linear-gradient(-146deg, #00d5a5 1%, #b3f0e2 100%); }
+
+.btn-primary-contact {
+  font-weight: 800;
+  color: #00d5a5;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.btn-primary-contact:hover {
+  font-weight: 800;
+  background: transparent;
+  border: 2px solid;
+  color: #fff;
+  font-size: 12px;
+  background-color: #00d5a5;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.btn-primary-write {
+  font-weight: 800;
+  background: transparent;
+  border: 2px solid;
+  color: #fff;
+  font-size: 12px;
+  background-color: #00d5a5;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.btn-primary-write:hover {
+  font-weight: 800;
+  color: #00d5a5;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.inicio {
+  background-color: #392A96;
+  color: #fff; }
+
+.gradient-inicio {
+  background: #aaa6da;
+  background: linear-gradient(214deg, #aaa6da 1%, #392a96 100%); }
+
+.plantillas {
+  background-color: #0c8dff;
+  color: #fff; }
+
+.gradient-plantillas {
+  background: #0c8dff;
+  background: linear-gradient(58deg, #0c8dff 1%, #67b6fc 100%); }
+
+.porque {
+  background-color: #eb6d36;
+  color: #fff; }
+
+.gradient-porque {
+  background: #eb6d36;
+  background: linear-gradient(-146deg, #eb6d36 1%, #ffa680 100%); }
+
+.procesos {
+  background-color: #0c8dff;
+  color: #fff; }
+
+.gradient-procesos {
+  min-height: 60vh;
+  width: 100%;
+  background: #0c8dff;
+  background: linear-gradient(58deg, #0c8dff 1%, #67b6fc 100%); }
+
+.section-process {
+  max-height: 100vh;
+  width: 100%; }
+
+.textos-centrados-procesos {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline; }
+
+.proyectos {
+  background-color: #ec3b99;
+  color: #fff; }
+
+.gradient-proyectos {
+  background: #ec3b99;
+  background: linear-gradient(-45deg, #ec3b99 1%, #ea94c2 100%); }
+
+.servicios {
+  background-color: #ff4452;
+  color: #fff; }
+
+.gradient-servicios {
+  min-height: 100vh;
+  width: 100%;
+  background: #ff4452;
+  background: linear-gradient(45deg, #ff4452 1%, #ff848e 100%); }
+
+.textos-servicios {
+  margin-top: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30%; }
