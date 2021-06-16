@@ -305,13 +305,6 @@ header {
   margin-left: 5px;
   margin-right: 5px; }
 
-.header-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline; }
-
 .contacto {
   background-color: #00d5a5;
   color: #fff; }
@@ -360,6 +353,11 @@ header {
   padding-left: 20px;
   padding-right: 20px; }
 
+.navbar-contacto a:hover {
+  color: #00d5a5;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .inicio {
   background-color: #392A96;
   color: #fff; }
@@ -367,6 +365,11 @@ header {
 .gradient-inicio {
   background: #aaa6da;
   background: linear-gradient(214deg, #aaa6da 1%, #392a96 100%); }
+
+.navbar-inicio a:hover {
+  color: #392A96;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .plantillas {
   background-color: #0c8dff;
@@ -376,6 +379,11 @@ header {
   background: #0c8dff;
   background: linear-gradient(58deg, #0c8dff 1%, #67b6fc 100%); }
 
+.navbar-plantilla a:hover {
+  color: #0c8dff;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .porque {
   background-color: #eb6d36;
   color: #fff; }
@@ -383,6 +391,11 @@ header {
 .gradient-porque {
   background: #eb6d36;
   background: linear-gradient(-146deg, #eb6d36 1%, #ffa680 100%); }
+
+.navbar-porque a:hover {
+  color: #eb6d36;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .procesos {
   background-color: #0c8dff;
@@ -410,6 +423,11 @@ header {
   justify-content: center;
   align-items: baseline; }
 
+.navbar-procesos a:hover {
+  color: #0c8dff;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 .proyectos {
   background-color: #ec3b99;
   color: #fff; }
@@ -417,6 +435,11 @@ header {
 .gradient-proyectos {
   background: #ec3b99;
   background: linear-gradient(-45deg, #ec3b99 1%, #ea94c2 100%); }
+
+.navbar-proyectos a:hover {
+  color: #ec3b99;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .servicios {
   background-color: #ff4452;
@@ -433,3 +456,8 @@ header {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 30%; }
+
+.navbar-servicios a:hover {
+  color: #ff4452;
+  padding-left: 20px;
+  padding-right: 20px; }

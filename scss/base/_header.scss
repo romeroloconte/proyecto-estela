@@ -26,8 +26,6 @@ header {
 }
 
 .navbar li:hover{
-    // background: transparent;
-    // color: #fff;
     font-size: 12px;
     font-weight: 800;
     background-color: #fff;
@@ -38,10 +36,5 @@ header {
     margin-right: 5px;
 }
 
-.header-list{
-    display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   justify-content: space-between;
-   align-items: baseline;
-}
+
+
