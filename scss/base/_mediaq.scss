@@ -55,7 +55,7 @@ la pantalla */
      }
 
      .gradient-procesos img{
-          margin-top: 6%;
+          margin-top: 40%;
           width: 80%;
      }
 
@@ -64,8 +64,13 @@ la pantalla */
     }
 
     .btn-burger{
-     margin-right: 10%;    
+          margin-right: 10%;    
     }
+
+    .procesos-imagen img{
+          display: none;  
+     }
+    
     
 }
 
@@ -123,7 +128,7 @@ la pantalla */
      }
 
      .gradient-procesos img{
-          margin-top: 6%;
+          margin-top: 22%;
           width: 80%;
      }
 
@@ -190,7 +195,7 @@ la pantalla */
      }
 
      .gradient-procesos img{
-          margin-top: 6%;
+          margin-top: 12%;
           width: 80%;
      }
 
@@ -257,12 +262,12 @@ la pantalla */
      }
 
      .gradient-procesos img{
-          margin-top: 6%;
+          margin-top: 12%;
           width: 80%;
      }
 
     .btn-burger{
-     display: none;    
+          display: none;    
     }    
 
 }
