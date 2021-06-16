@@ -79,6 +79,9 @@ la pantalla */
   .gradient-proyectos img {
     margin-top: 15%;
     width: 100%; }
+  .gradient-procesos img {
+    margin-top: 6%;
+    width: 80%; }
   .navbar {
     display: none; }
   .btn-burger {
@@ -116,6 +119,9 @@ la pantalla */
     margin-top: 20%;
     margin-bottom: 5%;
     width: 100%; }
+  .gradient-procesos img {
+    margin-top: 6%;
+    width: 80%; }
   .navbar {
     display: none; }
   .btn-burger {
@@ -152,6 +158,9 @@ la pantalla */
   .gradient-proyectos img {
     margin-top: 10%;
     width: 100%; }
+  .gradient-procesos img {
+    margin-top: 6%;
+    width: 80%; }
   .navbar {
     display: none; }
   .btn-burger {
@@ -188,6 +197,9 @@ la pantalla */
   .gradient-proyectos img {
     margin-top: 35%;
     width: 100%; }
+  .gradient-procesos img {
+    margin-top: 6%;
+    width: 80%; }
   .btn-burger {
     display: none; } }
 
@@ -222,6 +234,12 @@ la pantalla */
   .gradient-proyectos img {
     margin-top: 30%;
     width: 100%; }
+  .gradient-proyectos {
+    min-height: 100vh;
+    width: 100%; }
+  .gradient-procesos img {
+    margin-top: 6%;
+    width: 80%; }
   .btn-burger {
     display: none; } }
 
@@ -273,15 +291,19 @@ header {
   font-size: 12px;
   font-weight: 800;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
 
 .navbar li:hover {
-  font-weight: 800;
   font-size: 12px;
+  font-weight: 800;
   background-color: #fff;
   border-radius: 30px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
 
 .header-list {
   display: flex;

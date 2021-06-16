@@ -21,18 +21,21 @@ header {
     font-weight: 800;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navbar li:hover{
-    font-weight: 800;
     // background: transparent;
-    // border: 2px solid;
     // color: #fff;
     font-size: 12px;
+    font-weight: 800;
     background-color: #fff;
     border-radius: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .header-list{
