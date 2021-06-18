@@ -452,7 +452,7 @@ header {
   margin-left: 5px;
   margin-right: 5px; }
 
-.btn-form :hover {
+.btn-form:hover {
   font-size: 12px;
   font-weight: 800;
   color: white;
@@ -463,19 +463,11 @@ header {
   margin-left: 5px;
   margin-right: 5px; }
 
-.contacto {
-  background-color: #00d5a5;
-  color: #fff; }
-
-.gradient-contacto {
-  background: #00d5a5;
-  background: linear-gradient(-146deg, #00d5a5 1%, #b3f0e2 100%); }
-
 .btn-primary-contact {
   font-weight: 800;
   color: #00d5a5;
   font-size: 12px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 30px;
   padding-left: 20px;
   padding-right: 20px; }
@@ -510,6 +502,14 @@ header {
   border-radius: 30px;
   padding-left: 20px;
   padding-right: 20px; }
+
+.contacto {
+  background-color: #00d5a5;
+  color: #fff; }
+
+.gradient-contacto {
+  background: #00d5a5;
+  background: linear-gradient(-146deg, #00d5a5 1%, #b3f0e2 100%); }
 
 .navbar-verde a:hover {
   color: #00d5a5; }
