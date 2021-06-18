@@ -1,8 +1,7 @@
 header {
     width: 90%;
     position: absolute;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 5%;
     margin-top: 50px;
     z-index: 10;
 }
@@ -36,5 +35,22 @@ header {
     margin-right: 5px;
 }
 
+.dropdown-menu{
+    font-size: 12px;
+    font-weight: 800;
+    background-color: transparent;
+    color: white;
+    border: 0px;
 
+}
 
+.dropdown-menu li{
+    padding-top: 20px;
+    text-align: end;
+}
+
+.dropdown-menu li:hover{
+    padding-top: 20px;
+    text-align: end;
+
+}

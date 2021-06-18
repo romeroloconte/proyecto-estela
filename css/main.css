@@ -276,8 +276,7 @@ la pantalla */
 header {
   width: 90%;
   position: absolute;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 5%;
   margin-top: 50px;
   z-index: 10; }
 
@@ -306,6 +305,21 @@ header {
   padding-right: 20px;
   margin-left: 5px;
   margin-right: 5px; }
+
+.dropdown-menu {
+  font-size: 12px;
+  font-weight: 800;
+  background-color: transparent;
+  color: white;
+  border: 0px; }
+
+.dropdown-menu li {
+  padding-top: 20px;
+  text-align: end; }
+
+.dropdown-menu li:hover {
+  padding-top: 20px;
+  text-align: end; }
 
 .slide-in-blurred-right {
   -webkit-animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
@@ -427,6 +441,28 @@ header {
     filter: blur(0);
     opacity: 1; } }
 
+.btn-form {
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  background-color: #00d5a5;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.btn-form :hover {
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  background-color: #2f977f;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
 .contacto {
   background-color: #00d5a5;
   color: #fff; }
@@ -475,10 +511,8 @@ header {
   padding-left: 20px;
   padding-right: 20px; }
 
-.navbar-contacto a:hover {
-  color: #00d5a5;
-  padding-left: 20px;
-  padding-right: 20px; }
+.navbar-verde a:hover {
+  color: #00d5a5; }
 
 .inicio {
   background-color: #392A96;
@@ -489,9 +523,7 @@ header {
   background: linear-gradient(214deg, #aaa6da 1%, #392a96 100%); }
 
 .navbar-inicio a:hover {
-  color: #392A96;
-  padding-left: 20px;
-  padding-right: 20px; }
+  color: #392A96; }
 
 .plantillas {
   background-color: #0c8dff;
@@ -502,9 +534,7 @@ header {
   background: linear-gradient(58deg, #0c8dff 1%, #67b6fc 100%); }
 
 .navbar-plantilla a:hover {
-  color: #0c8dff;
-  padding-left: 20px;
-  padding-right: 20px; }
+  color: #0c8dff; }
 
 .porque {
   background-color: #eb6d36;
@@ -514,10 +544,8 @@ header {
   background: #eb6d36;
   background: linear-gradient(-146deg, #eb6d36 1%, #ffa680 100%); }
 
-.navbar-porque a:hover {
-  color: #eb6d36;
-  padding-left: 20px;
-  padding-right: 20px; }
+.navbar-proposito a:hover {
+  color: #eb6d36; }
 
 .procesos {
   background-color: #0c8dff;
@@ -546,9 +574,7 @@ header {
   align-items: baseline; }
 
 .navbar-procesos a:hover {
-  color: #0c8dff;
-  padding-left: 20px;
-  padding-right: 20px; }
+  color: #0c8dff; }
 
 .proyectos {
   background-color: #ec3b99;
@@ -559,9 +585,7 @@ header {
   background: linear-gradient(-45deg, #ec3b99 1%, #ea94c2 100%); }
 
 .navbar-proyectos a:hover {
-  color: #ec3b99;
-  padding-left: 20px;
-  padding-right: 20px; }
+  color: #ec3b99; }
 
 .servicios {
   background-color: #ff4452;
@@ -580,6 +604,4 @@ header {
   margin-bottom: 30%; }
 
 .navbar-servicios a:hover {
-  color: #ff4452;
-  padding-left: 20px;
-  padding-right: 20px; }
+  color: #ff4452; }
