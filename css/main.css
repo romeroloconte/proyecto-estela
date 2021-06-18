@@ -302,6 +302,12 @@ la pantalla */
   position: relative;
   background-color: #fff; }
 
+.clase:hover {
+  transition: 0.5s;
+  filter: blur(5px);
+  position: absolute;
+  transform: scale(1.03); }
+
 .p6 .is-active-inicio {
   background-color: #aaa6da;
   width: 12px;
@@ -374,16 +380,38 @@ header {
   font-size: 12px;
   font-weight: 800;
   background-color: transparent;
-  color: white;
-  border: 0px; }
+  color: 646464;
+  border: solid 0px;
+  background-color: #fff;
+  width: 50%;
+  margin-top: 18px;
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 50%;
+  box-shadow: 0px 0px 0px 0px #2e2e2e; }
+
+.dropdown-menu a {
+  color: #797979; }
+
+.dropdown-menu a:hover {
+  color: #505050; }
 
 .dropdown-menu li {
-  padding-top: 20px;
+  padding-top: 20%;
+  padding-bottom: 20%;
   text-align: end; }
 
-.dropdown-menu li:hover {
-  padding-top: 20px;
-  text-align: end; }
+.linea {
+  width: 120px;
+  height: 1px;
+  background: #797979;
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 50px; }
+
+.btn-burger img {
+  box-shadow: 0px 0px 20px 0px #2e2e2e;
+  border-radius: 100%; }
 
 .slide-in-blurred-right {
   -webkit-animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;

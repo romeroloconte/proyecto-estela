@@ -54,8 +54,6 @@
     color: #222;
 }
 
-
-
 .p6 a{
     width: 7px;
     height: 7px;
@@ -65,9 +63,16 @@
     text-align: center;
     position: relative;
     background-color: #fff
-    
 }
-  
+
+.clase:hover{
+    transition: 0.5s;
+    filter: blur(5px);
+    position: absolute;
+    transform: scale(1.03);
+}
+
+
 .p6 .is-active-inicio{
     background-color: #aaa6da;
     width: 12px;
