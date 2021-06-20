@@ -172,7 +172,6 @@
 	background-color: rgb(255, 255, 255);
 }
 
-
 .pagination .dots .dot {
 	background-color: rgba(255, 255, 255, 0.212);
 }
@@ -198,6 +197,7 @@
 .dot-fijo {
 	position: absolute;
 	width: 20px;
-	height: 20px;
+        height: 20px;
+        z-index: 500;
 	background-color: rgb(255, 255, 255);
 }
