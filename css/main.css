@@ -5,9 +5,7 @@
   box-sizing: border-box; }
 
 body, html {
-  font-family: 'Montserrat', sans-serif; }
-
-section {
+  font-family: 'Montserrat', sans-serif;
   max-height: 100vh;
   width: 100%; }
 
@@ -260,7 +258,7 @@ la pantalla */
 
 .numeros {
   font-weight: 800;
-  font-size: 32px; }
+  font-size: 48px; }
 
 .content-wrapper {
   min-height: 100vh; }
@@ -272,76 +270,6 @@ la pantalla */
   justify-content: center;
   align-items: baseline;
   align-content: stretch; }
-
-.pagination {
-  padding: 30px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-around; }
-
-.pagination ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-
-.pagination a {
-  display: inline-block;
-  padding: 10px 18px;
-  color: #222; }
-
-.p6 a {
-  width: 7px;
-  height: 7px;
-  border-radius: 100%;
-  padding: 0;
-  margin: auto 10px;
-  text-align: center;
-  position: relative;
-  background-color: #fff; }
-
-.clase:hover {
-  transition: 0.5s;
-  filter: blur(5px);
-  position: absolute;
-  transform: scale(1.03); }
-
-.p6 .is-active-inicio {
-  background-color: #aaa6da;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-proposito {
-  background-color: #ffa680;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-procesos {
-  background-color: #67b6fc;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-servicios {
-  background-color: #ff848e;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-proyectos {
-  background-color: #ea94c2;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-plantillas {
-  background-color: #67b6fc;
-  width: 12px;
-  height: 12px; }
-
-.p6 .is-active-contactanos {
-  background-color: #b3f0e2;
-  width: 12px;
-  height: 12px; }
 
 header {
   width: 90%;
@@ -391,10 +319,10 @@ header {
   box-shadow: 0px 0px 0px 0px #2e2e2e; }
 
 .dropdown-menu a {
-  color: #797979; }
+  color: #313131; }
 
 .dropdown-menu a:hover {
-  color: #505050; }
+  color: #5f5f5f; }
 
 .dropdown-menu li {
   padding-top: 20%;
@@ -410,7 +338,7 @@ header {
   padding-left: 50px; }
 
 .btn-burger img {
-  box-shadow: 0px 0px 20px 0px #2e2e2e;
+  box-shadow: 0px 0px 5px 0px #2e2e2e;
   border-radius: 100%; }
 
 .slide-in-blurred-right {
@@ -532,6 +460,62 @@ header {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1; } }
+
+.pagination ul {
+  padding: 10px 30px;
+  font-size: 0; }
+
+.pagination li {
+  display: inline-block;
+  margin: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; }
+
+.pagination .dots {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0); }
+
+.pagination .dots .select {
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  background-color: white; }
+
+.select-proposito {
+  left: 60px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  background-color: white; }
+
+.pagination .dots .dot {
+  background-color: rgba(255, 255, 255, 0.212); }
+
+.pagination .buttons {
+  position: relative;
+  z-index: 500; }
+
+.pagination .buttons .button button {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0);
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none; }
+
+.dot-fijo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white; }
 
 .btn-form {
   font-size: 12px;
