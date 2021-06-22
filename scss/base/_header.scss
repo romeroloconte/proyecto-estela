@@ -74,6 +74,12 @@ header {
 }
 
 .btn-burger img{
-    box-shadow: 0px 0px 5px 0px #2e2e2e; 
+    box-shadow: 0px 0px 5px 0px #2e2e2e8c; 
     border-radius: 100%;
+    border: none
+}
+
+
+.btn-burger img:hover{
+    box-shadow: 0px 0px 5px 0px #ffffffa4; 
 }
